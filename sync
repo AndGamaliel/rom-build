@@ -18,9 +18,10 @@ pwd
 ls
 
 ##delete these lines, and replace with your own lines of device sauce
-git clone device/xiaomi/alioth --depth=1
-git clone device/xiaomi/sm8250-common --depth=1
+git clone https://github.com/VoidUI-Devices/device_xiaomi_alioth.git device/xiaomi/alioth --depth=1
+git clone https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common.git device/xiaomi/sm8250-common --depth=1
 git clone https://github.com/Reloaded-Devices/kernel_xiaomi_sm8250.git kernel/xiaomi/sm8250 --depth=1
-git clone vendor/xiaomi/alioth --depth=1
+git clone https://github.com/VoidUI-Devices/vendor_xiaomi_alioth.git vendor/xiaomi/alioth --depth=1
+git clone https://github.com/VoidUI-Devices/vendor_xiaomi_sm8250-common.git vendor/xiaomi/sm8250-common --depth=1
 
 cd /tmp/rom
