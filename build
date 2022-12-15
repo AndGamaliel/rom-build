@@ -2,7 +2,7 @@
 cd /tmp/rom
 rm -rf .repo
 
-ROM_NAME=ReloadOS
+ROM_NAME=ReloadedOS
 BRANCH=t
 DEVICE="alioth"
 
