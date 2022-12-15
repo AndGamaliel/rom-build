@@ -2,16 +2,16 @@
 cd /tmp/rom
 rm -rf .repo
 
-ROM_NAME=LineageOS
-BRANCH=lineage-17.1
-DEVICE="g151"
+ROM_NAME=ReloadOS
+BRANCH=t
+DEVICE="alioth"
 
 . build/envsetup.sh
-lunch lineage_g151-userdebug ##edit this
+brunch alioth ##edit this
 export CCACHE_DIR=/tmp/ccache  ##use additional flags if you need(optional)
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 20G
+ccache -M 50G
 ccache -o compression=true
 ccache -z
 BUILDLOG = log.txt
